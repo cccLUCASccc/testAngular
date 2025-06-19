@@ -1,0 +1,7 @@
+{
+  "name": "formulaire-covid",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
