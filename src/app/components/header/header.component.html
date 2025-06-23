@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar class="!p-0 bg-white dark:bg-gray-800">
+    <div
+      class="w-full max-w-[1110px] mx-auto flex justify-between items-center px-4 py-2"
+    >
+      <!-- Logo -->
+      <ion-buttons slot="start">
+        <img src="assets/img/comunicareLogo.png" style="height: 32px" />
+      </ion-buttons>
+
+      <!-- Toggle -->
+      <div class="dark-mode-toggle">
+        <span class="icon">☀️</span>
+        <ion-toggle
+          [checked]="isDarkMode"
+          (ionChange)="toggleDarkMode()"
+          mode="ios"
+        ></ion-toggle>
+        <span class="icon">🌙</span>
+      </div>
+
+      <!-- Langues -->
+      <!-- Langues -->
+      <ion-buttons slot="end">
+        <ion-button
+          fill="clear"
+          (click)="setLanguage('fr')"
+          [class.active]="currentLang === 'fr'"
+        >
+          fr
+        </ion-button>
+        <ion-button
+          fill="clear"
+          (click)="setLanguage('en')"
+          [class.active]="currentLang === 'en'"
+        >
+          en
+        </ion-button>
+      </ion-buttons>
+    </div>
+  </ion-toolbar>
+</ion-header>

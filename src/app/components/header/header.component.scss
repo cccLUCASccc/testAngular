@@ -1,0 +1,15 @@
+/* header.component.scss */
+ion-header,
+ion-toolbar {
+  --background: transparent !important;
+  --border-width: 0 !important; /* retire le petit trait gris */
+}
+
+ion-button.active {
+  font-weight: bold;
+  color: var(--link-color);
+}
+
+ion-button {
+  font-size: large;
+}

@@ -1,0 +1,6 @@
+/* footer.component.scss */
+ion-footer,
+ion-toolbar {
+  --background: transparent !important;
+  --border-width: 0 !important; /* retire le petit trait gris */
+}
