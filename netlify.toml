@@ -3,3 +3,8 @@
   publish = "dist/browser"
 [build.environment]
   NODE_VERSION = "22.11.0"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
