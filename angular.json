@@ -46,10 +46,13 @@
               { "input": "node_modules/@ionic/angular/css/structure.css" },
               { "input": "node_modules/@ionic/angular/css/typography.css" },
               { "input": "node_modules/@ionic/angular/css/display.css" },
+              { "input": "node_modules/@ionic/angular/css/padding.css" },
+              { "input": "node_modules/@ionic/angular/css/text-alignment.css" },
+              { "input": "node_modules/@ionic/angular/css/text-transformation.css" },
+              { "input": "node_modules/@ionic/angular/css/flex-utils.css" },
               "src/theme/variables.scss",
               "src/global.scss"
-            ]
-          },
+            ] },
           "configurations": {
             "production": {
               "budgets": [
