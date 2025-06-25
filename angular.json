@@ -18,7 +18,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["src/polyfills.ts"],
@@ -64,8 +64,8 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/FormulaireCovid19/",
-              "deployUrl": "/FormulaireCovid19/"
+              "baseHref": "/",
+              "deployUrl": "/"
             },
             "development": {
               "optimization": false,
@@ -130,7 +130,10 @@
     }
   },
   "cli": {
-    "schematicCollections": ["@ionic/angular-toolkit"]
+    "schematicCollections": [
+      "@ionic/angular-toolkit"
+    ],
+    "analytics": "21d434d3-11b1-42f3-b814-bfad11e30669"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
