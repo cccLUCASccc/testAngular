@@ -7,4 +7,8 @@
   from = "/*"
   to = "/index.html"
   status = 200
+[[plugins]]
+  package = "@netlify/plugin-ignore-build-plugin"
+  [plugins.inputs]
+  ignoredPlugins = ["@netlify/angular-runtime"]
 
