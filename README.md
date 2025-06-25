@@ -437,3 +437,146 @@ FormulaireCovid19
 
 ```# testAngular
 # testAngular
+
+```
+FormulaireCovid19
+├─ .browserslistrc
+├─ .editorconfig
+├─ .eslintrc.json
+├─ .nvmrc
+├─ angular.json
+├─ capacitor.config.ts
+├─ ionic.config.json
+├─ karma.conf.js
+├─ netlify.toml
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ README.md
+├─ src
+│  ├─ 404.html
+│  ├─ app
+│  │  ├─ app.component.html
+│  │  ├─ app.component.scss
+│  │  ├─ app.component.spec.ts
+│  │  ├─ app.component.ts
+│  │  ├─ app.routes.ts
+│  │  ├─ components
+│  │  │  ├─ footer
+│  │  │  │  ├─ footer.component.html
+│  │  │  │  ├─ footer.component.scss
+│  │  │  │  ├─ footer.component.spec.ts
+│  │  │  │  └─ footer.component.ts
+│  │  │  ├─ header
+│  │  │  │  ├─ header.component.html
+│  │  │  │  ├─ header.component.scss
+│  │  │  │  ├─ header.component.spec.ts
+│  │  │  │  └─ header.component.ts
+│  │  │  └─ layout.ts
+│  │  ├─ home
+│  │  │  ├─ home.page.html
+│  │  │  ├─ home.page.scss
+│  │  │  ├─ home.page.spec.ts
+│  │  │  └─ home.page.ts
+│  │  └─ services
+│  │     ├─ language.service.ts
+│  │     ├─ prediction.service.ts
+│  │     └─ theme.service.ts
+│  ├─ assets
+│  │  ├─ i18n
+│  │  │  ├─ en.json
+│  │  │  └─ fr.json
+│  │  ├─ icon
+│  │  │  └─ favicon.ico
+│  │  ├─ img
+│  │  │  └─ comunicareLogo.png
+│  │  └─ shapes.svg
+│  ├─ environments
+│  │  ├─ environment.prod.ts
+│  │  └─ environment.ts
+│  ├─ global.scss
+│  ├─ index.html
+│  ├─ main.ts
+│  ├─ polyfills.ts
+│  ├─ test.ts
+│  ├─ theme
+│  │  ├─ theme.service.ts
+│  │  └─ variables.scss
+│  └─ zone-flags.ts
+├─ tailwind.config.js
+├─ tsconfig.app.json
+├─ tsconfig.json
+└─ tsconfig.spec.json
+
+```
+```
+FormulaireCovid19
+├─ .browserslistrc
+├─ .editorconfig
+├─ .eslintrc.json
+├─ .nvmrc
+├─ angular.json
+├─ capacitor.config.ts
+├─ ionic.config.json
+├─ karma.conf.js
+├─ netlify.toml
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ README.md
+├─ src
+│  ├─ 404.html
+│  ├─ app
+│  │  ├─ app.component.html
+│  │  ├─ app.component.scss
+│  │  ├─ app.component.spec.ts
+│  │  ├─ app.component.ts
+│  │  ├─ app.routes.ts
+│  │  ├─ components
+│  │  │  ├─ footer
+│  │  │  │  ├─ footer.component.html
+│  │  │  │  ├─ footer.component.scss
+│  │  │  │  ├─ footer.component.spec.ts
+│  │  │  │  └─ footer.component.ts
+│  │  │  ├─ header
+│  │  │  │  ├─ header.component.html
+│  │  │  │  ├─ header.component.scss
+│  │  │  │  ├─ header.component.spec.ts
+│  │  │  │  └─ header.component.ts
+│  │  │  └─ layout.ts
+│  │  ├─ home
+│  │  │  ├─ home.page.html
+│  │  │  ├─ home.page.scss
+│  │  │  ├─ home.page.spec.ts
+│  │  │  └─ home.page.ts
+│  │  └─ services
+│  │     ├─ language.service.ts
+│  │     ├─ prediction.service.ts
+│  │     └─ theme.service.ts
+│  ├─ assets
+│  │  ├─ i18n
+│  │  │  ├─ en.json
+│  │  │  └─ fr.json
+│  │  ├─ icon
+│  │  │  └─ favicon.ico
+│  │  ├─ img
+│  │  │  └─ comunicareLogo.png
+│  │  └─ shapes.svg
+│  ├─ environments
+│  │  ├─ environment.prod.ts
+│  │  └─ environment.ts
+│  ├─ global.scss
+│  ├─ index.html
+│  ├─ main.ts
+│  ├─ polyfills.ts
+│  ├─ test.ts
+│  ├─ theme
+│  │  ├─ theme.service.ts
+│  │  └─ variables.scss
+│  └─ zone-flags.ts
+├─ tailwind.config.js
+├─ tsconfig.app.json
+├─ tsconfig.json
+└─ tsconfig.spec.json
+
+```

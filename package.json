@@ -4,13 +4,12 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --configuration=production",
-    "deploy": "ng build --configuration production && npx gh-pages -d docs",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint"
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ionic build --prod",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
