@@ -2,13 +2,8 @@
   command = "npm run build"
   publish = "www"
 [build.environment]
-  NODE_VERSION = "22.11.0"
+  NODE_VERSION = "22.17.0"
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-[[plugins]]
-  package = "@netlify/plugin-ignore-build-plugin"
-  [plugins.inputs]
-  ignoredPlugins = ["@netlify/angular-runtime"]
-
